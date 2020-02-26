@@ -4,11 +4,15 @@ if(UNIX)
     pkg_check_modules(PC_LIBZMQ QUIET libzmq)
 endif(UNIX)
 
+set(PC_LIBZMQ_LIBDIR C:/packages/pg/prod/libzmq/4.3.2/vs14_2015_x64)
+set(PC_LIBZMQ_LIBDIR_BIN C:/packages/pg/prod/libzmq/4.3.2/vs14_2015_x64)
+
 set(ZeroMQ_VERSION ${PC_LIBZMQ_VERSION})
-find_library(ZeroMQ_LIBRARY NAMES libzmq.so libzmq.dylib libzmq.dll
-             PATHS ${PC_LIBZMQ_LIBDIR} ${PC_LIBZMQ_LIBRARY_DIRS})
-find_library(ZeroMQ_STATIC_LIBRARY NAMES libzmq-static.a libzmq.a libzmq.lib
-             PATHS ${PC_LIBZMQ_LIBDIR} ${PC_LIBZMQ_LIBRARY_DIRS})
+
+find_library(ZeroMQ_LIBRARY NAMES libzmq.so libzmq.dylib libzmq-v140-mt-4_3_2.dll
+             PATHS ${PC_LIBZMQ_LIBDIR_BIN} )
+find_library(ZeroMQ_STATIC_LIBRARY NAMES libzmq-static.a libzmq.a libzmq.dll.a libzmq-v140-mt-s-4_3_2.dll
+             PATHS ${PC_LIBZMQ_LIBDIR} )
 
 # set this env var to locat the cppzmq include dir:
 set(CPPZMQ_INCLUDE_DIRS $ENV{CPPZMQ_INCLUDE})

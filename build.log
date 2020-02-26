@@ -1,0 +1,139 @@
+Running with debug output on.
+Running with trace output on.
+-- Selecting Windows SDK version 10.0.14393.0 to target Windows 10.0.17763.
+   Called from: [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- The C compiler identification is MSVC 19.0.24215.1
+   Called from: [3]	C:/CMake/share/cmake-3.15/Modules/CMakeDetermineCompilerId.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/CMakeDetermineCCompiler.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- The CXX compiler identification is MSVC 19.0.24215.1
+   Called from: [3]	C:/CMake/share/cmake-3.15/Modules/CMakeDetermineCompilerId.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/CMakeDetermineCXXCompiler.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+   Called from: [3]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCompilerCommon.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCCompiler.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+   Called from: [3]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCompilerCommon.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCCompiler.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- Detecting C compiler ABI info
+   Called from: [3]	C:/CMake/share/cmake-3.15/Modules/CMakeDetermineCompilerABI.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCCompiler.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- Detecting C compiler ABI info - done
+   Called from: [3]	C:/CMake/share/cmake-3.15/Modules/CMakeDetermineCompilerABI.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCCompiler.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- Detecting C compile features
+   Called from: [3]	C:/CMake/share/cmake-3.15/Modules/CMakeDetermineCompileFeatures.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCCompiler.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- Detecting C compile features - done
+   Called from: [3]	C:/CMake/share/cmake-3.15/Modules/CMakeDetermineCompileFeatures.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCCompiler.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+   Called from: [3]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCompilerCommon.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCXXCompiler.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+   Called from: [3]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCompilerCommon.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCXXCompiler.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- Detecting CXX compiler ABI info
+   Called from: [3]	C:/CMake/share/cmake-3.15/Modules/CMakeDetermineCompilerABI.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCXXCompiler.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- Detecting CXX compiler ABI info - done
+   Called from: [3]	C:/CMake/share/cmake-3.15/Modules/CMakeDetermineCompilerABI.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCXXCompiler.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- Detecting CXX compile features
+   Called from: [3]	C:/CMake/share/cmake-3.15/Modules/CMakeDetermineCompileFeatures.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCXXCompiler.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- Detecting CXX compile features - done
+   Called from: [3]	C:/CMake/share/cmake-3.15/Modules/CMakeDetermineCompileFeatures.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/CMakeTestCXXCompiler.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- Setting PXR_BUILD_USDVIEW=OFF because PXR_BUILD_USD_IMAGING=OFF
+   Called from: [2]	C:/Users/mjun/workspace_pg/turret_usd/source/cmake/defaults/Options.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/source/CMakeLists.txt
+-- Looking for pthread.h
+   Called from: [4]	C:/CMake/share/cmake-3.15/Modules/CheckIncludeFile.cmake
+                [3]	C:/CMake/share/cmake-3.15/Modules/FindThreads.cmake
+                [2]	C:/Users/mjun/workspace_pg/turret_usd/source/cmake/defaults/Packages.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/source/CMakeLists.txt
+-- Looking for pthread.h - not found
+   Called from: [4]	C:/CMake/share/cmake-3.15/Modules/CheckIncludeFile.cmake
+                [3]	C:/CMake/share/cmake-3.15/Modules/FindThreads.cmake
+                [2]	C:/Users/mjun/workspace_pg/turret_usd/source/cmake/defaults/Packages.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/source/CMakeLists.txt
+-- Found Threads: TRUE  
+   Called from: [5]	C:/CMake/share/cmake-3.15/Modules/FindPackageMessage.cmake
+                [4]	C:/CMake/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake
+                [3]	C:/CMake/share/cmake-3.15/Modules/FindThreads.cmake
+                [2]	C:/Users/mjun/workspace_pg/turret_usd/source/cmake/defaults/Packages.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/source/CMakeLists.txt
+-- Found PythonInterp: C:/Python27/python.exe (found suitable version "2.7.15", minimum required is "2.7") 
+   Called from: [5]	C:/CMake/share/cmake-3.15/Modules/FindPackageMessage.cmake
+                [4]	C:/CMake/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake
+                [3]	C:/CMake/share/cmake-3.15/Modules/FindPythonInterp.cmake
+                [2]	C:/Users/mjun/workspace_pg/turret_usd/source/cmake/defaults/Packages.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/source/CMakeLists.txt
+-- Found PythonLibs: C:/Python27/libs/python27.lib (found suitable version "2.7.15", minimum required is "2.7") 
+   Called from: [5]	C:/CMake/share/cmake-3.15/Modules/FindPackageMessage.cmake
+                [4]	C:/CMake/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake
+                [3]	C:/CMake/share/cmake-3.15/Modules/FindPythonLibs.cmake
+                [2]	C:/Users/mjun/workspace_pg/turret_usd/source/cmake/defaults/Packages.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/source/CMakeLists.txt
+-- Found Boost: C:/packages/pg/prod/boost/1.61.0 (found version "1.61.0") found components:  filesystem program_options python system 
+   Called from: [5]	C:/CMake/share/cmake-3.15/Modules/FindPackageMessage.cmake
+                [4]	C:/CMake/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake
+                [3]	C:/CMake/share/cmake-3.15/Modules/FindBoost.cmake
+                [2]	C:/Users/mjun/workspace_pg/turret_usd/source/cmake/defaults/Packages.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/source/CMakeLists.txt
+-- Found TBB: C:/USD_build/src/tbb2017_20170226oss/include (found version "2017.0") found components:  tbb 
+   Called from: [5]	C:/CMake/share/cmake-3.15/Modules/FindPackageMessage.cmake
+                [4]	C:/CMake/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake
+                [3]	C:/Users/mjun/workspace_pg/turret_usd/source/cmake/modules/FindTBB.cmake
+                [2]	C:/Users/mjun/workspace_pg/turret_usd/source/cmake/defaults/Packages.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/source/CMakeLists.txt
+-- C++ namespace configured to (external) pxr, (internal) pxrInternal_v0_18
+   Called from: [2]	C:/Users/mjun/workspace_pg/turret_usd/source/cmake/defaults/CXXDefaults.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/source/CMakeLists.txt
+-- Found Boost: C:/packages/pg/prod/boost/1.61.0 (found version "1.61.0")  
+   Called from: [4]	C:/CMake/share/cmake-3.15/Modules/FindPackageMessage.cmake
+                [3]	C:/CMake/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake
+                [2]	C:/CMake/share/cmake-3.15/Modules/FindBoost.cmake
+                [1]	C:/Users/mjun/workspace_pg/turret_usd/source/plugin/ar/CMakeLists.txt
+-- Configuring done
+-- Generating C:/Users/mjun/workspace_pg/turret_usd/build
+   Called from: [1]	C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+-- Generating C:/Users/mjun/workspace_pg/turret_usd/build/source
+   Called from: [1]	C:/Users/mjun/workspace_pg/turret_usd/source/CMakeLists.txt
+-- Generating C:/Users/mjun/workspace_pg/turret_usd/build/source/plugin
+   Called from: [1]	C:/Users/mjun/workspace_pg/turret_usd/source/plugin/CMakeLists.txt
+-- Generating C:/Users/mjun/workspace_pg/turret_usd/build/source/plugin/ar
+   Called from: [1]	C:/Users/mjun/workspace_pg/turret_usd/source/plugin/ar/CMakeLists.txt
+-- Generating done
+-- Build files have been written to: C:/Users/mjun/workspace_pg/turret_usd/build
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Checking Build System
+  Copying turretResolver.h ...
+  Building Custom Rule C:/Users/mjun/workspace_pg/turret_usd/source/plugin/ar/CMakeLists.txt
+  Building Custom Rule C:/Users/mjun/workspace_pg/turret_usd/source/plugin/ar/CMakeLists.txt
+  turretResolver.cpp
+     Creating library C:/Users/mjun/workspace_pg/turret_usd/build/source/plugin/ar/Release/turretResolver.lib and object C:/Users/mjun/workspace_pg/turret_usd/build/source/plugin/ar/Release/turretResolver.exp
+  turretResolver.vcxproj -> C:\Users\mjun\workspace_pg\turret_usd\build\source\plugin\ar\Release\turretResolver.dll
+  Building Custom Rule C:/Users/mjun/workspace_pg/turret_usd/CMakeLists.txt
+  -- Install configuration: "Release"
+  -- Up-to-date: C:/packages/pg/prod/turret_usd/1.1.5/./plugin/usd/plugInfo.json
+  -- Installing: C:/packages/pg/prod/turret_usd/1.1.5/plugin/usd/turretResolver.lib
+  -- Installing: C:/packages/pg/prod/turret_usd/1.1.5/plugin/usd/turretResolver.dll
+  -- Up-to-date: C:/packages/pg/prod/turret_usd/1.1.5/include/pxr/usd/turretResolver/turretResolver.h
+  -- Installing: C:/packages/pg/prod/turret_usd/1.1.5/plugin/usd/turretResolver/resources/plugInfo.json
