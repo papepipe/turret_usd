@@ -8,15 +8,16 @@ authors = ['ben.skinner',
            'daniel.flood',
            'wen.tan']
 
-requires = ['turret_lib', 'usd']
+requires = ['turret_lib']
 
 private_build_requires = []
 
-variants = []
+variants = [['houdini-18'], ['maya-2019'], ['usd']]
 
 
 def commands():
-    env.TF_DEBUG = "PLUG_*"
+    # Enable blow for debugging
+    # env.TF_DEBUG = "PLUG_*"
     env.PXR_PLUGINPATH_NAME.append('{root}/plugin/usd')
     env.PATH.append('{root}/plugin/usd')
     env.TURRET_SERVER_IP = "127.0.0.1"
